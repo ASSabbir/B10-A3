@@ -22,6 +22,13 @@
         .bg-primary {
             background-color: #ABEF5F;
         }
+
+        .bg-image {
+            background-image: url(./assets/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
@@ -71,7 +78,7 @@
                     <div class="text-xl  bg-gray-100 p-1 w-12 flex justify-center h-12 items-center rounded-full">
                         <i class="fa-solid fa-cart-shopping text-2xl text-gray-500"></i>
                     </div>
-                    <a href="" class="flex flex-row  items-center gap-2 bg-primary px-4 md:px-6 py-3 rounded-full">
+                    <a href="" class="flex flex-row w-56  items-center gap-2 bg-primary px-4 md:px-6 py-3 rounded-full">
                         <h1 class="text-xl font-bold">Book Consult</h1>
                         <div class="text-xl  bg-gray-800 p-1 w-9 flex justify-center h-9 items-center rounded-full">
                             <i class="fa-solid fa-arrow-up-long rotate-45 text-white "></i>
@@ -216,7 +223,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16">
             <div class=" p-6 rounded-md shadow-md flex flex-col sm:flex-row lg:flex-col gap-4 bg-white text-gray-900">
-                <img src="./assets/article1.png"  alt=""
+                <img src="./assets/article1.png" alt=""
                     class="object-cover object-center w-full rounded-md h-44 sm:h-60 sm:max-w-72  md:max-w-96 bg-white">
                 <div class="space-y-4 ">
                     <div class="flex gap-2 items-center">
@@ -236,7 +243,7 @@
                 </div>
             </div>
             <div class=" p-6 rounded-md shadow-md flex flex-col sm:flex-row lg:flex-col gap-4 bg-white text-gray-900">
-                <img src="./assets/article2.png"  alt=""
+                <img src="./assets/article2.png" alt=""
                     class="object-cover object-center w-full rounded-md h-44 sm:h-60 sm:max-w-72  md:max-w-96 bg-white">
                 <div class="space-y-4 ">
                     <div class="flex gap-2 items-center">
@@ -256,7 +263,7 @@
                 </div>
             </div>
             <div class=" p-6 rounded-md shadow-md flex flex-col sm:flex-row lg:flex-col gap-4 bg-white text-gray-900">
-                <img src="./assets/article3.png"  alt=""
+                <img src="./assets/article3.png" alt=""
                     class="object-cover object-center w-full rounded-md h-44 sm:h-60 sm:max-w-72  md:max-w-96 bg-white">
                 <div class="space-y-4 ">
                     <div class="flex gap-2 items-center">
@@ -275,10 +282,76 @@
                     </div>
                 </div>
             </div>
-            
-            
+
+
         </div>
     </section>
+    <div class="bg-image">
+        <section class="max-w-screen-lg p-3 mx-auto py-28 ">
+            <div class="flex flex-col items-center  space-y-8">
+                <button class="flex items-center gap-2 px-4 py-2 bg-[#abef5f] bg-opacity-50 rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-90 "></i>
+                    <h1 class="font-bold text-xl">Rinterio News</h1>
+                </button>
+                <h1 class="text-3xl md:text-6xl font-bold">Let’s Discuss Next Project</h1>
+                <p class="text-gray-500 text-xl text-center">The barn house captivates with its blend of rustic charm
+                    and modern
+                    sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="space-y-6 mt-16">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-6">
+                    <input type="text" placeholder="First Name*"
+                        class="input input-bordered input-lg w-full max-w-xl rounded-full border-0" />
+                    <input type="text" placeholder="Last Name*"
+                        class="input input-bordered input-lg w-full max-w-xl rounded-full border-0" />
+                </div>
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-6">
+                    <input type="text" placeholder="Phone Number*"
+                        class="input input-bordered input-lg w-full max-w-xl rounded-full border-0" />
+                    <input type="text" placeholder="Email Number*"
+                        class="input input-bordered input-lg w-full max-w-xl rounded-full border-0" />
+                </div>
+
+            </div>
+            <textarea name="" class="w-full h-72 p-6 rounded-3xl outline-none mt-6" id="ss"
+                placeholder="Write your message here"></textarea>
+            <a href=""
+                class="flex flex-row w-full justify-center mt-6  items-center gap-2 bg-primary px-4 md:px-6 py-3 rounded-full">
+                <h1 class="text-xl font-bold">Book Consult</h1>
+                <div class="text-xl  bg-gray-800 p-1 w-9 flex justify-center h-9 items-center rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-white "></i>
+                </div>
+            </a>
+        </section>
+    </div>
+    <div class="bg-[#1C1C1C] ">
+        <section class="max-w-screen-lg p-3 flex flex-col space-y-16 items-center  mx-auto py-28 ">
+            <a href="" class="flex items-center gap-2">
+                <div class="text-xl  bg-primary p-1 w-9 flex justify-center h-9 items-center rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 "></i>
+                </div>
+                <h1 class="text-4xl font-bold text-white"> Rinterio</h1>
+            </a>
+            <p class="text-[#737373] text-xl text-center">The barn house captivates with its blend of rustic charm
+                and modern
+                sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="flex flex-col md:flex-row items-center gap-2  justify-between w-full">
+                <h1 class="text-white text-xl font-medium">Home</h1>
+                <h1 class="text-white text-xl font-medium">Services</h1>
+                <h1 class="text-white text-xl font-medium">Portfolio</h1>
+                <h1 class="text-white text-xl font-medium">Blogs</h1>
+                <h1 class="text-white text-xl font-medium">Contact Us</h1>
+            </div>
+            <a href=""
+                class="flex  flex-row w-56 justify-center   items-center gap-2 bg-primary px-4 md:px-6 py-3 rounded-full">
+                <h1 class="text-xl font-bold">Book Consult</h1>
+                <div class="text-xl  bg-gray-800 p-1 w-9 flex justify-center h-9 items-center rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-white "></i>
+                </div>
+            </a>
+        </section>
+    </div>
+
 </body>
 <!-- <a href="" class="flex items-center gap-2">
     <div class="text-xl  bg-primary p-1 w-9 flex justify-center h-9 items-center rounded-full">
